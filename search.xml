@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Netty</title>
+    <url>/2022/07/26/Netty/</url>
+    <content><![CDATA[<h3 id="Netty-介绍"><a href="#Netty-介绍" class="headerlink" title="Netty 介绍"></a>Netty 介绍</h3><p>    Netty是一个高性能，时间驱动，异步非阻塞的IO，Java开源框架。Netty是一个机遇NIO客户端，服务端编程框架，使用Netty可以确保快速和简单地开发出一个网络应用。例如实现了某种协议的客户端、服务端应用。很多高性能项目拿它作为其Socket底层的通信基础，比如说分布式服务治理框架Dubbo。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/08/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/08/05/hello-world%E7%9A%84%E5%89%AF%E6%9C%AC/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Redis</title>
+    <url>/2022/07/25/redis/</url>
+    <content><![CDATA[<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><h5 id="什么是Redis？简单描述优缺点"><a href="#什么是Redis？简单描述优缺点" class="headerlink" title="什么是Redis？简单描述优缺点"></a>什么是Redis？简单描述优缺点</h5><ol>
+<li><p>Redis本质上是一个Key-value类型的内存数据库,整个数据库都是在内存当中进行操作的</p>
+</li>
+<li><p>每秒可以处理超过10万次读写操作，是已知性能最快的Key-Value数据库</p>
+</li>
+<li><p>Redis支持保存多种数据结构，此外单个Value的最大限制是1GB，</p>
+</li>
+<li><p>缺点：容易受到物理内存的限制，不能用做海量数据库的高性能读写，因此Redis适合的场景主要局限在较小数据量的高性能操作和运算上</p>
+</li>
+</ol>
+<h5 id="Redis支持哪几种数据类型"><a href="#Redis支持哪几种数据类型" class="headerlink" title="Redis支持哪几种数据类型"></a>Redis支持哪几种数据类型</h5><p>    Redis支持五种数据类型，String (字符串)、Hash（哈希）、List（列表）、Set（集合）</p>
+<h5 id="缓存和数据库的区别"><a href="#缓存和数据库的区别" class="headerlink" title="缓存和数据库的区别"></a>缓存和数据库的区别</h5><ul>
+<li><p> 缓存数据不重要</p>
+</li>
+<li><p>不是全量数据</p>
+</li>
+<li><p>缓存应该随着访问变化，热数据</p>
+</li>
+</ul>
+<h5 id="Redis如何淘汰过期的keys"><a href="#Redis如何淘汰过期的keys" class="headerlink" title="Redis如何淘汰过期的keys"></a>Redis如何淘汰过期的keys</h5><p>     Redis keys过期有两种方式：被动和主动方式。</p>
+<h5 id="Redis持久化"><a href="#Redis持久化" class="headerlink" title="Redis持久化"></a>Redis持久化</h5><p>    Redis持久化分为两种，RDB、AOF</p>
+<h5 id="RDB"><a href="#RDB" class="headerlink" title="RDB"></a>RDB</h5><ul>
+<li><p>save:</p>
+</li>
+<li><p>bgsave: fork 创建子进程去做</p>
+</li>
+</ul>
+]]></content>
+  </entry>
+</search>
