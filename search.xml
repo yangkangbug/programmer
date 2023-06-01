@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Netty</title>
+    <url>/2023/06/01/Netty/</url>
+    <content><![CDATA[<h3 id="Netty-介绍"><a href="#Netty-介绍" class="headerlink" title="Netty 介绍"></a>Netty 介绍</h3><p>    Netty是一个高性能，时间驱动，异步非阻塞的IO，Java开源框架。Netty是一个基于NIO客户端，服务端编程框架，使用Netty可以确保快速和简单地开发出一个网络应用。例如实现了某种协议的客户端、服务端应用。很多高性能项目拿它作为其Socket底层的通信基础，比如说分布式服务治理框架Dubbo。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Redis</title>
     <url>/2022/07/25/redis/</url>
     <content><![CDATA[<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><h5 id="什么是Redis？简单描述优缺点"><a href="#什么是Redis？简单描述优缺点" class="headerlink" title="什么是Redis？简单描述优缺点"></a>什么是Redis？简单描述优缺点</h5><ol>
@@ -30,12 +36,6 @@
 <li><p>bgsave: fork 创建子进程去做</p>
 </li>
 </ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>Netty</title>
-    <url>/2022/07/26/Netty/</url>
-    <content><![CDATA[<h3 id="Netty-介绍"><a href="#Netty-介绍" class="headerlink" title="Netty 介绍"></a>Netty 介绍</h3><p>    Netty是一个高性能，时间驱动，异步非阻塞的IO，Java开源框架。Netty是一个机遇NIO客户端，服务端编程框架，使用Netty可以确保快速和简单地开发出一个网络应用。例如实现了某种协议的客户端、服务端应用。很多高性能项目拿它作为其Socket底层的通信基础，比如说分布式服务治理框架Dubbo。</p>
 ]]></content>
   </entry>
 </search>
